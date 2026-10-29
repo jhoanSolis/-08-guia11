@@ -1,0 +1,21 @@
+Diccionario cargado: 32 palabras
+
+=== Pruebas de buscar() ===
+buscar("casa") -> true
+buscar("cas") -> false
+buscar("programa") -> true
+buscar("programas") -> false
+buscar("ARBOL") -> true
+
+=== Pruebas de empiezaCon() ===
+empiezaCon("cas") -> true
+empiezaCon("pro") -> true
+empiezaCon("xyz") -> false
+
+=== Autocompletado (maximo 5 sugerencias) ===
+sugerir("ca") -> [cama, camino, camisa, campo, canal]
+sugerir("cas") -> [casa, casaca, casado, casco, casino]
+sugerir("pro") -> [problema, proceso, programa, programador, programar]
+sugerir("pe") -> [pelo, pelota, pera, perro, peso]
+sugerir("da") -> [dado, dato, datos]
+sugerir("z") -> sin resultados
